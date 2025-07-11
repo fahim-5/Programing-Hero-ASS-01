@@ -183,50 +183,87 @@ body {
 
 
 
-/* Feedback Section */
+
 .feedback {
-  background: #fff;
-  padding: 3rem 0 2rem 0;
+  background: #f7f9fc;
+  padding: 3rem 1rem;
   text-align: center;
 }
-.feedback-header .star-icon {
-  width: 32px;
-  margin-bottom: 0.5rem;
-}
+
 .feedback-header h2 {
-  font-size: 1.7rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.review-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.review {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  max-width: 300px;
+  text-align: left;
+}
+
+.stars {
+  color: #f5b301;
   margin-bottom: 0.5rem;
 }
-.feedback-header p {
-  color: #888;
-  margin-bottom: 2rem;
+
+.review h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
 }
-.review {
+
+.review p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.reviewer {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
+  margin-top: 1rem;
+  gap: 0.75rem;
 }
+
 .reviewer-img {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #ffb347;
 }
-.reviewer-info h4 {
-  margin: 0.2rem 0 0.1rem 0;
+
+.name {
+  font-weight: bold;
+  margin: 0;
 }
-.reviewer-info span {
-  color: #888;
-  font-size: 0.9rem;
+
+.date {
+  color: #aaa;
+  font-size: 0.85rem;
+  margin: 0;
 }
-.review-text {
-  max-width: 400px;
-  color: #444;
-  font-style: italic;
-  margin-top: 0.5rem;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Get In Touch Section */
 .get-in-touch {
